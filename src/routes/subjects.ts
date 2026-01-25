@@ -1,6 +1,7 @@
 import express from 'express';
-import {and, ilike, or, sql} from "drizzle-orm";
+import {and, desc, eq, getTableColumns, ilike, or, sql} from "drizzle-orm";
 import {departments, subjects} from "../db/schema";
+import {db} from "../db";
 
 const router = express.Router();
 
@@ -31,12 +32,40 @@ router.get('/', async (req, res) => {
         }
 
         //Combine all filters using AND id any exist
-        const whereClaus = filterConditions.length > 0 ? and(...filterConditions) : undefined;
+        const whereClause = filterConditions.length > 0 ? and(...filterConditions) : undefined;
 
+        const countResult = await db
+            .select({count: sql<number>`count(*)`})
+            .from(subjects)
+            .leftJoin(departments, eq(subjects.departmentId, departments.id))
+            .where(whereClause);
 
+        const totalCount = countResult[0] ?.count ?? 0;
+
+        const subjectList = await db.select({
+            ...getTableColumns(subjects),
+            department: {...getTableColumns(departments)}
+            })
+            .from(subjects).leftJoin(departments, eq(subjects.departmentId, departments.id))
+            .where(whereClause)
+            .orderBy(desc(subjects.createdAt))
+            .limit(limitPerPage)
+            .offset(offset);
+
+        res.status(200).json({
+            data: subjectList,
+            pagination: {
+                page: currentPage,
+                limit: limitPerPage,
+                total: totalCount,
+                totalPages: Math.ceil(totalCount / limitPerPage),
+            }
+        })
 
     } catch (e) {
         console.error(`GET /subjects error: ${e}`);
         res.status(500).json({error: "Failed to get subjects"});
     }
 })
+
+export default router;
