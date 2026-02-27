@@ -26,7 +26,7 @@ const securityMiddleware = async (req: Request, res: Response, next: NextFunctio
                 break;
                 default:
                     limit = 5;
-                    message = 'Guests are limited to 5 requests per minute';
+                    message = 'Guests are limited to 5 requests per minute. Please Sign in to get more';
                     break;
         }
 
