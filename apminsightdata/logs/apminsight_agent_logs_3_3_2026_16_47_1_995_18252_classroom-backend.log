@@ -156,3 +156,126 @@
 [3/3/2026 16:47:4] [INFO] intiating /arh/connect request to plusinsight.site24x7.com:443 
 [3/3/2026 16:47:6] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":911,"instance-info":{"instanceid":"2680618b9b8ffcaac8ec598881a092aa"},"agent_specific_info":{"transaction.grouping":"","transaction.skip.patterns":"","webtransaction.trace.external.components.count.threshold":30,"bgtransaction.trace.threshold":5,"webtransaction.trace.request.headers.record":false,"normalize.dboperation":true,"bgtransaction.tracking.enabled":false,"transaction.grouping.by.position":"","transaction.keyword.skip.grouping":"","tags":"","webtransaction.trace.input.params.record":false,"bgtransaction.trace.enabled":false,"webtransaction.tracker.drop.threshold":10,"apminsight.log.level":"CRITICAL","exceptions.ignore":"","transaction.key.transactions":"","webtransaction.trace.request.headers.ignore":"X-Site24x7-Id, X-SITE24X7-RUM-APPKEY, X-SITE24X7-RUM-TRACEID, Site24x7SyntheticKey","transaction.skip.listening":"*.css, *.js, *.gif, *.jpg, *.jpeg, *.bmp, *.png, *.ico","application.group.name":"classroom-backend_SmartGroup","http.errors.ignore":"","http.errors.track":"","transaction.prefix.grouping":""},"s247_cluster_name":10,"custom_config_info":{"transaction.trace.sql.parametrize":true,"down.alert.enabled":false,"suppress.instance.alerts":false,"cloud.instance.cleanup.threshold":7,"transaction.tracestore.size":30,"last.modified.time":1772457695849,"transaction.trace.threshold":2,"show.instance.port.number":true,"metricstore.bgmetric.bucket.size":100,"transaction.trace.enabled":true,"autoupgrade.enabled":false,"transaction.trace.sql.stacktrace.threshold":3,"transaction.tracking.request.interval":1,"metricstore.dbmetric.bucket.size":500,"metricstore.metric.bucket.size":250,"sql.capture.enabled":true,"apdex.threshold":0.5},"collector-info":{"port":"443","host":"plusinsight.site24x7.com"},"app_id":"ikP8v8BLpZ","config_info":{"transaction.trace.sql.parametrize":true,"down.alert.enabled":false,"suppress.instance.alerts":false,"transaction.grouping":"","cloud.instance.cleanup.threshold":7,"bgtransaction.trace.threshold":5,"bgtransaction.tracking.enabled":false,"transaction.keyword.skip.grouping":"","bgtransaction.trace.enabled":false,"autoupgrade.enabled":false,"exceptions.ignore":"","transaction.key.transactions":"","transaction.trace.sql.stacktrace.threshold":3,"application.group.name":"classroom-backend_SmartGroup","http.errors.track":"","transaction.skip.patterns":"","last.modified.time":1772457695849,"transaction.trace.threshold":2,"webtransaction.trace.external.components.count.threshold":30,"webtransaction.trace.request.headers.record":false,"show.instance.port.number":true,"normalize.dboperation":true,"transaction.grouping.by.position":"","tags":"","transaction.trace.enabled":true,"webtransaction.trace.input.params.record":false,"webtransaction.tracker.drop.threshold":10,"apminsight.log.level":"CRITICAL","transaction.tracking.request.interval":1,"webtransaction.trace.request.headers.ignore":"X-Site24x7-Id, X-SITE24X7-RUM-APPKEY, X-SITE24X7-RUM-TRACEID, Site24x7SyntheticKey","transaction.skip.listening":"*.css, *.js, *.gif, *.jpg, *.jpeg, *.bmp, *.png, *.ico","http.errors.ignore":"","sql.capture.enabled":true,"apdex.threshold":0.5,"transaction.prefix.grouping":""}}}
 [3/3/2026 16:47:6] [CRITICAL] received response code : "MANAGE_AGENT"
+[3/3/2026 16:48:7] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 16:49:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 16:50:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 16:51:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 16:52:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 16:53:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 16:54:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 16:55:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 16:56:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 16:57:6] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 16:58:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 16:59:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:0:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:1:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:2:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:3:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:4:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:5:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:6:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:7:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:8:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:9:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:10:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:11:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:12:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:13:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:14:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:15:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:16:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:17:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:18:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:19:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:20:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:21:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:22:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:23:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:24:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:25:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:26:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:27:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:28:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:29:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:30:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:31:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:32:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:33:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:34:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:35:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:36:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:37:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:38:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:39:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:40:5] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:57:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:58:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 17:59:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:0:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:1:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:2:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:3:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:4:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:5:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:6:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:7:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:8:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:9:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:10:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:11:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:12:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:13:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:14:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:15:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:16:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:17:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:18:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:19:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:20:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:21:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:22:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:23:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:24:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:25:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:26:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:27:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:28:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:29:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:30:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:31:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:32:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:33:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:34:28] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:35:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:36:28] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:37:28] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:38:28] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:39:28] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:40:27] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:41:28] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:42:28] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:43:28] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 18:44:28] [CRITICAL] received empty response data for /arh/nvm request 
+[3/3/2026 21:44:54] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\TheMe\Desktop\classroom-project\classroom-backend\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\TheMe\Desktop\classroom-project\classroom-backend\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\TheMe\Desktop\classroom-project\classroom-backend\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:519:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[3/3/2026 21:44:57] [ERROR] Error occured for in /arh/nvm request Error: All endpoints failed
+    at tryEndpoint (C:\Users\TheMe\Desktop\classroom-project\classroom-backend\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\TheMe\Desktop\classroom-project\classroom-backend\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\TheMe\Desktop\classroom-project\classroom-backend\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:519:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:107:11)
+    at TLSSocket.socketErrorListener (node:_http_client:574:5)
+    at TLSSocket.emit (node:events:519:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
